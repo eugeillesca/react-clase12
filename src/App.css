@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.brand {
+  font-size: 39px;
+  background: -webkit-linear-gradient(#eee, #e30052);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 60%;
+  text-align: left;
+}
+
+.navbar {
+  background-color: gainsboro;
+  margin-bottom: 0px;
+}
+
+.divnotification {
+  width: 30%;
+  text-align: right;
+}
+
+.notification {
+  position: relative;
+  display: inline-block;
+  color: #555555;
+}
+
+.notification:hover{
+  color: #444444;
+}
+
+.notification i {
+    font-size: 35px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 25px;
+  width: 25px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #e30052;
+  color: white;
+}
+
+.navoption a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#e897b5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e6749e;
+  color:#eee
+}
+
+
+.tab-contenedor {
+  column-count: 2;
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+div.tab-prod {
+  width:100%;
+}
+
+.tab-prod img {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.content {
+  width: 900px;
+  margin: 0px auto;
+}
+
+.element {
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 10px;
+  box-shadow: 0 2px 5px #666666;
+  float: left;
+  position: relative;
+  width: 30%;
+  border: steelblue solid 1px;
+  /* height: 350px; */
+  margin-top: 10px;
+  height: 410px;
+}
+span{
+  padding: 5px 20px;;
+}
+
+.buttonCart{
+  padding: 5px 15px;
+  margin-top: 20px;
+}
+
+.addCart{
+  background-color: #e30052;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+}
